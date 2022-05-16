@@ -1,0 +1,62 @@
+{
+  "path": "mod_wizardry/plants/crystal_plant.json",
+  "enabled": true,
+  "id": "ebwizardry:crystal_plant",
+  "plant_name": "Crystal Flower",
+  "seed_name": "Crystal Shard (seed)",
+  "seed_items": [],
+  "description": {
+    "translations": {},
+    "default": "A crystalline flower that eminates magical energy."
+  },
+  "growth_chance": 0.5,
+  "growth_bonus": 0.025,
+  "bonemeal": false,
+  "tier": 1,
+  "weedable": false,
+  "aggressive": false,
+  "spread_chance": 0.1,
+  "spawn_chance": 0.0,
+  "grass_drop_chance": 0.0,
+  "seed_drop_chance": 0.0,
+  "seed_drop_bonus": 0.0,
+  "products": {
+    "products": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 1.0,
+        "required": true,
+        "item": "ebwizardry:magic_crystal",
+        "meta": 0,
+        "tags": "",
+        "ignoreMeta": false,
+        "ignoreTags": [],
+        "useOreDict": false
+      }
+    ]
+  },
+  "requirement": {
+    "min_light": 10,
+    "max_light": 16,
+    "soils": [
+      "farmland_soil",
+      "grass_soil"
+    ],
+    "conditions": []
+  },
+  "texture": {
+    "render_type": "cross",
+    "seed_texture": "ebwizardry:items/crystal_shard",
+    "plant_textures": [
+      "agricraft:blocks/crystal_flower1",
+      "agricraft:blocks/crystal_flower1",
+      "agricraft:blocks/crystal_flower1",
+      "agricraft:blocks/crystal_flower2",
+      "agricraft:blocks/crystal_flower2",
+      "agricraft:blocks/crystal_flower3",
+      "agricraft:blocks/crystal_flower3",
+      "agricraft:blocks/crystal_flower4"
+    ]
+  }
+}
